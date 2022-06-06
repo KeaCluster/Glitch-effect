@@ -1,0 +1,42 @@
+@keyframes glitch {
+    0% {
+        color: #e93cf0;
+        font-size: 40px;
+    }
+
+    20% {
+        color: #dc2c94;
+        font-size: 100px;
+        padding-left: 70%;
+    }
+
+    50% {
+        color: #fdfefe;
+        font-size: 50px;
+    }
+
+    70% {
+        color: #880a8e;
+        font-size: 30px;
+        margin-left: 20%;
+    }
+
+    85% {
+        color: #0ffbf9;
+        font-size: 40px;
+    }
+
+    100% {
+        color: #cc0f39;
+        font-size: 80px;
+    }
+}
+
+.glitch-txt {
+    animation-name: glitch;
+    animation-duration: .5s;
+    animation-iteration-count:initial;
+    animation-timing-function: cubic-bezier(0, 1, 0, 1);
+    position: absolute !important;
+    white-space: nowrap;
+}

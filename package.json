@@ -1,0 +1,16 @@
+{
+  "name": "glitch",
+  "version": "1.0.0",
+  "description": "Glitch css effect",
+  "main": "glitch.css",
+  "scripts": {
+    "test": "npm start"
+  },
+  "keywords": [
+    "css",
+    "effect",
+    "glitch"
+  ],
+  "author": "Keacluster",
+  "license": "ISC"
+}
